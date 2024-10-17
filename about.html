@@ -3,7 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Ducument</title>
+    <meta
+      name="description"
+      content="Masego is a Front-end engineer, based in South Africa this is a bit about her"
+    />
+    <title>About Masego</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -30,6 +34,37 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt=" Masego Logo"
+          />
+          <img
+            src="images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="Masego Logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Masego">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Masego's work">Work</a>
+          </li>
+
+          <li>
+            <a href="/contact.html" title="Contact Masego">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -52,7 +87,7 @@
               my passion for tech. I am excited to continue learning and growing
               as a developer!
             </p>
-            <a href="" class="btn btn-branding">See my projects</a>
+            <a href="/work.html" class="btn btn-branding">See my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
@@ -60,5 +95,62 @@
         </div>
       </div>
     </div>
+    <footer>
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Lets Work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Masego"
+          >
+            Contact me
+          </a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:masegolexie@gmail.com"
+          class="email-link"
+          title="Email Masego"
+          >masegolexie@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://github.com/Masegolex"
+          target="_blank"
+          title="Github Profile"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/masego_reign/"
+          target="_blank"
+          title="Instagram Profile"
+        >
+          <i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="https://x.com/Masego_reign"
+          target="_blank"
+          title="Twitter Profile"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+      </div>
+      <p class="text-center mt-5">
+        ✌️This project was coded by Masego, and it
+        <a
+          href="https://github.com/Masegolex/Masego-Portfolio-Project"
+          target="_blank"
+        >
+          is open-sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
